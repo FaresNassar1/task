@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const quoteContainer = document.getElementById("quoteContainer");
     let quotes = [];
   
-    fetch("https://api.example.com/quotes")
+    fetch("https..........")
       .then(response => response.json())
       .then(data => {
         quotes = data;
